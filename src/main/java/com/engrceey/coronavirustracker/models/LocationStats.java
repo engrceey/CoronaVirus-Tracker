@@ -28,4 +28,13 @@ public class LocationStats {
     public void setLatestTotalCate(int latestTotalCate) {
         this.latestTotalCate = latestTotalCate;
     }
+
+    @Override
+    public String toString() {
+        return "LocationStats{" +
+                "state='" + state + '\'' +
+                ", country='" + country + '\'' +
+                ", latestTotalCate=" + latestTotalCate +
+                '}';
+    }
 }
