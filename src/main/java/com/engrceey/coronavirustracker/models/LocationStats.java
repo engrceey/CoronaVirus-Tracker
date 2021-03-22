@@ -5,6 +5,7 @@ public class LocationStats {
     private String country;
     private int latestTotalCate;
 
+
     public String getState() {
         return state;
     }
